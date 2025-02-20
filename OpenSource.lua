@@ -7,7 +7,7 @@ if not game.IsLoaded then
 game.Loaded:Wait()
 end
 
--- Credits
+-- Credits, message is not squished up cuz it looks bad
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Credits to Nexer1234_AnotherAlt",
 	Text = "Made by @nexer1234 ( youtube & discord )",
