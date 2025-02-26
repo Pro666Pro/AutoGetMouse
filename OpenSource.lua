@@ -72,6 +72,14 @@ end
 game:GetService("ReplicatedStorage").Remotes.UnlockGloveWithOrbs:FireServer()
 end
 	]])
+else
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Message from Nexer1234_AnotherAlt",
+	Text = "Your executor doesn't support queueonteleport/queue_on_teleport, please re-execute script after teleporting",
+    Icon = "rbxassetid://125704683916878",
+	Duration = 36000,
+	Button1 = "Oh..."
+})
 end
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{
