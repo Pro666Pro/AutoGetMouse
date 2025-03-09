@@ -30,7 +30,7 @@ end
 game:GetService("ReplicatedStorage").Remotes.UnlockGloveWithOrbs:FireServer()
 end
 
-elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 then
+elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 or game.PlaceId == 124596094333302 then
 if not game.IsLoaded then
 game.Loaded:Wait()
 end
