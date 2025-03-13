@@ -42,7 +42,7 @@ game:GetService("ReplicatedStorage").Remotes.PlaceBuilding:FireServer("City", Ve
 end
 
 while task.wait() do
-if workspace.Game.Enemies:FindFirstChild("Rat") then
+if workspace.Game.Enemies:FindFirstChild("Rat") and workspace.Game.Enemies.Rat:FindFirstChildWhichIsA("Humanoid") then
 if workspace.Game.Enemies.Rat.Humanoid.Health ~= 0 then
 workspace.Game.Enemies.Rat.Humanoid.Health = 0 -- I tested and this method is faster than firing remotes
 end
